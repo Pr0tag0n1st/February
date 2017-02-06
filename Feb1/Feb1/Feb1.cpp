@@ -12,5 +12,8 @@ int main() {
 	al_draw_triangle(200, 400, 400, 400, 600, 200, ALLEGRO_COLOR(al_map_rgb(10, 200, 10)), 5);
 	al_draw_triangle(90, 50, 50, 90, 90, 200, ALLEGRO_COLOR(al_map_rgb(200, 10, 10)), 5);
 	al_flip_display();
+
+
+
 	al_rest(10.0); 
 }
