@@ -14,6 +14,6 @@ int main() {
 	al_draw_triangle(175, 61, 425, 61, 300, 225, ALLEGRO_COLOR(al_map_rgb(255, 20, 20)),20);
 	al_draw_text(font, al_map_rgb(255, 20, 20), 300, 80, ALLEGRO_ALIGN_CENTER, "YEILD");
 	al_flip_display();
-	al_rest(10.0);
+	al_rest(100.0);
 	al_destroy_display;
 }
